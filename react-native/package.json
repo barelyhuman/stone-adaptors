@@ -1,0 +1,34 @@
+{
+  "name": "@barelyhuman/stone-react-native",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --clean",
+    "dev": "npm run build -- --watch src",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "camelcase": "^6.2.1",
+    "stylis": "^4.0.13",
+    "@barelyhuman/stone": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@barelyhuman/stone": "^1.0.0",
+    "react-native": ">0.64"
+  },
+  "devDependencies": {
+    "@barelyhuman/stone": "^1.0.0",
+    "tsup": "^5.11.1",
+    "typescript": "^4.5.3",
+    "react-native": "0.64"
+  }
+}
