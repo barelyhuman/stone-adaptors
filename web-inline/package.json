@@ -1,5 +1,5 @@
 {
-  "name": "@barelyhuman/stone-react-native",
+  "name": "@barelyhuman/stone-web-inline",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -17,9 +17,9 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@barelyhuman/stone": "^1.0.0",
     "camelcase": "^6.2.1",
-    "stylis": "^4.0.13"
+    "stylis": "^4.0.13",
+    "@barelyhuman/stone": "^1.0.0"
   },
   "peerDependencies": {
     "@barelyhuman/stone": "^1.0.0",
@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@barelyhuman/stone": "^1.0.0",
-    "react-native": "0.64",
     "tsup": "^5.11.1",
-    "typescript": "^4.5.3"
+    "typescript": "^4.5.3",
+    "react-native": "0.64"
   }
 }
