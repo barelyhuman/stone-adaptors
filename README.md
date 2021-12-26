@@ -13,7 +13,7 @@ If you want to have near zero runtime effect while still wanting to use StoneCSS
 
 ## Documentation
 
-The documentation for all the adaptors can be found on the core repo or [StoneCSS website](https://stone.reaper.im)
+The documentation for all the adaptors can be found on the core repo or [StoneCSS website](https://stone.reaper.im/documentation/api.html#adaptors)
 
 ## Pitfalls / Caveats
 
