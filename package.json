@@ -14,7 +14,14 @@
     "test": "npm run test --workspaces --if-present",
     "build": "npm run build --workspaces --if-present"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "adaptors",
+    "css",
+    "stone-css",
+    "utils",
+    "css-engine"
+  ],
+  "author": "Reaper <ahoy@barelyhuman.dev>",
+  "license": "MIT",
+  "repository": "git@github.com:barelyhuman/stone-adaptors.git"
 }
