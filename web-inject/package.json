@@ -32,13 +32,11 @@
     "@barelyhuman/stone": "^1.0.0"
   },
   "peerDependencies": {
-    "@barelyhuman/stone": "^1.0.0",
-    "react-native": ">0.64"
+    "@barelyhuman/stone": "^1.0.0"
   },
   "devDependencies": {
     "@barelyhuman/stone": "^1.0.0",
     "tsup": "^5.11.1",
-    "typescript": "^4.5.3",
-    "react-native": "0.64"
+    "typescript": "^4.5.3"
   }
 }
