@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@barelyhuman/stone": "^1.0.0",
-    "camelcase": "^6.3.0",
+    "camelcase": "^7.0.0",
     "stylis": "^4.1.1"
   },
   "peerDependencies": {
